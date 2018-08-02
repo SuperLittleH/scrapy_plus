@@ -1,0 +1,9 @@
+"""管道组件封装"""
+
+
+class pipeline(object):
+    """负责处理数据对象"""
+
+    def process_item(self,item):
+        """处理item对象"""
+        print("item",item)
